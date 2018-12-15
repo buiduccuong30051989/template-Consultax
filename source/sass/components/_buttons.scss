@@ -7,7 +7,7 @@
   color: white;
   border: 1px solid $mcolor;
   text-align: center;
-  font-weight: 900;
+  font-weight: 700;
   font-family: $hfont;
   padding: 12px 38px;
   font-size: 12px;
@@ -109,5 +109,17 @@
   .icon {
     padding-right: 0;
     padding-left: 15px;
+  }
+}
+
+.btn-slider-04 {
+  @extend .btn-white;
+  font-weight: 900;
+  font-family: $hfont;
+
+  &:hover {
+    background-color: $scolor;
+    color: $white;
+    border-color: $scolor;
   }
 }

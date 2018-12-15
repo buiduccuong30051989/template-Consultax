@@ -55,7 +55,7 @@
       color: $white;
       padding: 0 19px;
       font-size: 12px;
-      font-weight: 900;
+      font-weight: 700;
 
       i {
         padding-left: 5px;
@@ -106,7 +106,7 @@
       width: 100%;
       transition: $transition-base;
       font-size: 12px;
-      font-weight: 900;
+      font-weight: 700;
       line-height: 29px;
       color: #363636;
 
@@ -165,7 +165,7 @@
   & > li {
     & > a {
       color: $black;
-      font-weight: 900;
+      font-weight: 700;
       font-family: $hfont;
     }
   }
@@ -263,11 +263,12 @@
       width: 100%;
       align-items: center;
       padding: 30px 48px;
+      padding-right: 0;
 
       a {
         color: $white;
         font-size: 18px;
-        font-weight: 900;
+        font-weight: 700;
       }
     }
   }
@@ -367,7 +368,7 @@
 .language-select {
   background-color: transparent;
   color: $white;
-  font-weight: 900;
+  font-weight: 700;
   font-family: $hfont;
   font-size: 12px;
   border: 0;
@@ -712,7 +713,7 @@
       p {
         font-size: 12px;
         font-family: $hfont;
-        font-weight: 900;
+        font-weight: 700;
         margin: 0;
         line-height: 1;
         display: block;

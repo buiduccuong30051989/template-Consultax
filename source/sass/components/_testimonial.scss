@@ -73,11 +73,12 @@ li {
 		background-image: url("../images/testimonial_bg1.png");
 		background-repeat: no-repeat;
 		background-position: right 30px top;
-		padding: 40px 25px;
+		padding: 22px 25px;
 	}
 
 	&__star {
-		margin-bottom: 40px;
+		margin-bottom: 20px;
+		margin-top: 4px;
 		float: left;
     	width: 100%;
 	}
@@ -202,23 +203,22 @@ li {
 		padding-left: 15px;
 		background-image: url('../images/h3_testimonial_bg.png');
 		background-repeat: no-repeat;
-    padding-top: 20px;
+		padding-top: 20px;
+		font-family: $hfont;
+		font-style: italic;
+		font-size: 18px;
+		line-height: 24px;
+		color: #1c1c1c;
 	}
 
 	&__bottom {
 		padding-top: 30px;
-    display: flex;
-    @include min-lg {
-      margin-left: 80px;
-      padding-left: 30px;
-    }
-		@include md-lg {
-			padding-left: 30px;
+		display: flex;
+		
+		.testimonial1__star {
+			margin-left: 30px;
+			margin-top: -3px;
 		}
-    @include md {
-      padding-left: 15px;
-      padding-right: 15px;
-    }
 	}
 
 	&__info {
@@ -390,10 +390,11 @@ li {
 	}
 
 	&__desc {
-		font-size: 38px;
+		font-size: 40px;
+		font-weight: 700;
+		font-family: $hfont;
 		color: $gray-green;
-		line-height: 40px;
-		font-weight: 600;
+		line-height: 1.1;
 	}
 
 	&__content {
@@ -415,7 +416,7 @@ li {
 	}
 
 	&__star {
-		margin-bottom: 20px;
+		margin-bottom: 14px;
     float: left;
     width: 100%;
     margin-top: 5px;
@@ -425,13 +426,20 @@ li {
 		p {
 			clear: both;
 		}
+
+		.testimonial-title  {
+			font-size: 16px;
+			font-weight: 700;
+			font-family: $hfont;
+			margin-bottom: 5px;
+		}
 	}
 	.main-title--vertical {
 		margin-bottom: 15px;
 		color: rgba(0,0,0,0.7);
     font-family: "Montserrat",sans-serif;
     font-size: 12px;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 8px;
 	}
 
@@ -446,9 +454,12 @@ li {
 .home06-testimonials {
 	margin: 0 auto;
 	background-color: $white;
-	margin-top: -100px;
 	position: relative;
-	padding-top: 50px;
+
+	&__inner {
+		padding-top: 100px;
+		margin-top: -100px;
+	}
 }
 
 .home08-testimonial {

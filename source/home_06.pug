@@ -271,21 +271,20 @@ append content
             img(src="images/circle02.png" data-ww="['326px','180px','180px','180px']" data-hh="['326px','180px','180px','180px']")
           .tp-caption.tp-resizeme.tp-static-layer(
             data-x="['left','left','left','left']",
-            data-hoffset="['385','185','185','185']",
+            data-hoffset="['370','185','185','185']",
             data-y="['bottom','bottom','bottom','bottom']",
-            data-voffset="['360','240','240','240']",
+            data-voffset="['345','230','230','230']",
             data-basealign="slide" 
             data-responsive_offset="on",
             data-startslide="0",
             data-endslide="2",
-            data-frames='[{"delay":3600,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+            data-frames='[{"delay":3600,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
             data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-2971-layer-18","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-2971-layer-18","delay":""},{"event":"click","action":"startlayer","layer":"slide-2971-layer-15","delay":""},{"event":"click","action":"startlayer","layer":"slide-2971-layer-19","delay":""},{"event":"click","action":"startlayer","layer":"slide-2971-layer-20","delay":"1000"},{"event":"click","action":"playvideo","layer":"slide-2971-layer-15","delay":"1000"}]'
             data-paddingtop="[0,0,0,0]",
             data-paddingright="[0,0,0,0]",
             data-paddingbottom="[0,0,0,0]",
             data-paddingleft="[0,0,0,0]")
-            .btn-play-video
-              i.icon.ion-ios-play
+            img(class="btn-play" src="images/btn-play-video2.png")
   //- about us
   .home06__about
     .container.container-lg
@@ -333,7 +332,7 @@ append content
                 .col-sm-4
                   .content-block.d-flex
                     .feature-left
-                      span.icon-block.icon.ion-cash
+                      span.icon-block.fa.fa-dollar
                     .feature-right
                       h4.title Budget Friendly
                       p.desc
@@ -493,22 +492,24 @@ append content
       .row
         .title02
           h3 OUR PARTNER
-        .slider.js-brand-slider.brand-slider
-          .brand__item
-            a(href="#")
-              img(src="images/brand01.png", alt="demo")
-          .brand__item
-            a(href="#")
-              img(src="images/brand02.png", alt="demo")
-          .brand__item
-            a(href="#")
-              img(src="images/brand03.png", alt="demo")
-          .brand__item
-            a(href="#")
-              img(src="images/brand04.png", alt="demo")
-          .brand__item
-            a(href="#")
-              img(src="images/brand05.png", alt="demo")
+        .slider.brand-slider
+          .row
+            .brand-inner
+              .brand__item
+                a(href="#")
+                  img(src="images/brand01.png", alt="demo")
+              .brand__item
+                a(href="#")
+                  img(src="images/brand02.png", alt="demo")
+              .brand__item
+                a(href="#")
+                  img(src="images/brand03.png", alt="demo")
+              .brand__item
+                a(href="#")
+                  img(src="images/brand04.png", alt="demo")
+              .brand__item
+                a(href="#")
+                  img(src="images/brand05.png", alt="demo")
   //- blog
   .home06-blog.ssp.bg-blue-light
     .container

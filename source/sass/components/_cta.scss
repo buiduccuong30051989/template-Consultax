@@ -48,6 +48,10 @@
       }
     }
   }
+
+  .main-title {
+    margin-top: -9px;
+  }
 }
 
 .home02-cta {
@@ -108,6 +112,7 @@
       align-items: flex-end;
     }
     .group-btn {
+      white-space: nowrap;
       @include md {
         padding-left: 15px;
         padding-right: 15px;
@@ -259,6 +264,11 @@
         margin-bottom: 0;
       }
     }
+
+    .btn-orange {
+      min-width: 144px;
+      height: 45px;
+    }
   }
 }
 
@@ -266,6 +276,11 @@
   background: $mcolor;
   color: white;
   padding: 30px;
+  border-radius: 4px;
+
+  .main-title {
+    margin-bottom: 81px;
+  }
 
   .cta-form {
     .form-row {

@@ -258,16 +258,18 @@ append content
               data-transform_in='x:100px;opacity:0;s:800;e:Power3.easeOut;', 
               data-transform_out='s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;', 
               data-start='2100')
-              a.btn-white(href='#') ABOUT US
+              a.btn-slider-04(href='#') ABOUT US
   .home04-consultation.consultation
     .container
       .row
-        .col-sm-10
-          p
-            strong Now! Get a Free 
-            span consultation for Your Business
-        .col-sm-2
-          a(href="#").get-link Get It Now
+        .inner 
+          .row
+            .col-sm-10
+              p
+                strong Now! Get a Free 
+                span consultation for Your Business
+            .col-sm-2
+              a(href="#").btn.btn-orange Get It Now
   //- services
   .home04-services.ssp
     .container
@@ -305,7 +307,7 @@ append content
       .row
         .home04-wwa__inner
           .home04-wwa__slider
-            .group-slider-control02
+            .group-slider-control08
               .control.js-btn-prev__wwa.prev
                 i.fa.fa-angle-left
               .control.js-btn-next__wwa.next
@@ -322,7 +324,7 @@ append content
                   img(src="images/home04-wwa-03.jpg", alt="demo")
           .row
             .home04-wwa__description
-              .col-md-7
+              .col-md-6
                 .home04-wwa__description-inner
                   p.rotate-title WHO WE ARE
                   .main-title
@@ -334,7 +336,7 @@ append content
                     p.text-signature Patterson 
                     p.name James Patterson
                     p.job-title Founder & CEO
-              .col-md-5
+              .col-md-4
                 .home04-wwa__description-inner--right
                   p.rotate-title OUR FEATURED
                   .home04-wwa__sm-block
@@ -351,23 +353,25 @@ append content
     .container
       .title02
         h3 OUR PARTNER
-      .slider.js-brand-slider.brand-slider
-        .brand__item
-          a(href="#")
-            img(src="images/brand01.png", alt="demo")
-        .brand__item
-          a(href="#")
-            img(src="images/brand02.png", alt="demo")
-        .brand__item
-          a(href="#")
-            img(src="images/brand03.png", alt="demo")
-        .brand__item
-          a(href="#")
-            img(src="images/brand04.png", alt="demo")
-        .brand__item
-          a(href="#")
-            img(src="images/brand05.png", alt="demo")
-  //- blog
+      .brand-slider
+        .row
+          .brand-inner
+            .brand__item
+              a(href="#")
+                img(src="images/brand01.png", alt="demo")
+            .brand__item
+              a(href="#")
+                img(src="images/brand02.png", alt="demo")
+            .brand__item
+              a(href="#")
+                img(src="images/brand03.png", alt="demo")
+            .brand__item
+              a(href="#")
+                img(src="images/brand04.png", alt="demo")
+            .brand__item
+              a(href="#")
+                img(src="images/brand05.png", alt="demo")
+    //- blog
   .home04-blog.ssp
     .overlay03
     .home04-blog__inner
@@ -742,13 +746,12 @@ append content
                           i.fa.fa-linkedin
                   span.text-copyright © 2018 Finacial Consulting Theme by Ocean Themes
   //- back to top
-  a#to-the-top.fixbtt
+  a#to-the-top.fixbtt.orange
     i.fa.fa-chevron-up
   +lib
   script(defer src="js/main-slider-home01.min.js")
   script(defer src="js/slick-team-home04.min.js")
   script(defer src="js/slick-testimonial-home04.min.js")
-  script(defer src="js/brand-carousel.min.js")
   script(defer src="js/main-menu-desktop.min.js")
   script(defer src="js/mobilemenu.min.js")
   script(defer src="js/slick-wwa-home04.min.js")

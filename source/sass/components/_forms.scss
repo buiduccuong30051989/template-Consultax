@@ -25,6 +25,13 @@
   }
 }
 
+select.ct-input {
+  background-image: url('../images/iconArrowDown.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) 50%;
+}
+
+
 // textarea
 .ct-textarea {
   border-radius: 2px;
