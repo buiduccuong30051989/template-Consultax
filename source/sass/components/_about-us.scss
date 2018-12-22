@@ -102,6 +102,10 @@
 }
 
 .home04-location {
+  .main-title {
+    margin-bottom: 21px;
+  }
+  
   @include md-lg {
     margin-top: 40px;
   }

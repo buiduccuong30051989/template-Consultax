@@ -55,7 +55,15 @@
 
   .testimonial-content-container {
     width: 60%;
-    padding-left: 110px;
+    padding-left: 80px;
+
+    .main-title {
+      padding-left: 30px;
+    }
+
+    .testimonial3__desc {
+      padding-left: 30px;
+    }
   }
 
   @include md {
@@ -71,5 +79,11 @@
       width: 100%;
       padding: 0 15px;
     }
+  }
+}
+
+.home03-testimonials {
+  .testimonial .slick-slide {
+    padding-left: 0;
   }
 }

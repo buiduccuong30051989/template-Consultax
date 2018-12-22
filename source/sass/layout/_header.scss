@@ -378,6 +378,10 @@
     outline: 0;
     box-shadow: none;
   }
+
+  option {
+    background-color: $mcolor;
+  }
 }
 
 // Header
@@ -759,6 +763,8 @@
       top: 0;
       transform: translateY(-100%);
       opacity: 0;
+      display: inline-block;
+      width: 100%;
 
       &.fixed {
         opacity: 1;
@@ -815,6 +821,8 @@
         justify-content: space-between;
         width: 100%;
         background-color: #00387a;
+        position: static;
+
         .container {
           width: 100%;
         }
@@ -829,6 +837,7 @@
         display: none;
       }
       .header03 {
+        position: static;
         display: flex;
         padding: 15px;
         justify-content: space-between;
@@ -877,6 +886,7 @@
       // home 6
       .header06 {
         padding: 10px 30px;
+        position: static;
       }
       .header06__control,
       .header06__btn-call {

@@ -347,7 +347,8 @@
       &.large {
         font-size: 40px;
         font-family: $hfont;
-        font-weight: 800;
+        font-weight: 700;
+        letter-spacing: -2px;
         line-height: 1.3;
         margin-bottom: 48px;
       }
@@ -491,6 +492,12 @@
     }
 
     &__right {
+      .post-type-01__content {
+        .post-content {
+          padding: 38px 32px;
+        }
+      }
+
       @include min-lg {
         flex: 0 0 calc(50% - 15px);
         display: flex;
@@ -502,6 +509,10 @@
           margin-bottom: 15px;
         }
       }
+    }
+
+    .btn-orange {
+      padding: 14px 27px 14px;
     }
   }
 }
