@@ -167,8 +167,8 @@
 
 .group-slider-control06 {
   position: absolute;
-  bottom: 25px;
-  left: 420px;
+  bottom: 10px;
+  left: 344px;
   z-index: 99;
   width: 150px;
   display: flex;
@@ -196,11 +196,38 @@
 }
 
 
+.group-slider-control08 {
+  width: 100px;
+  padding: 0 18px 0 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+
+  .control {
+    color: rgba($white, .5);;
+    width: 40%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
 .group-slider-control07 {
   width: 150px;
   display: flex;
   justify-content: space-around;
   text-align: center;
+  
   .control {
     border: 1px solid #495461;
     border-radius: $border_radius_base;
@@ -211,6 +238,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     &:hover {
       background-color: $scolor;
       transition: $transition-base;
@@ -218,6 +246,7 @@
     }
   }
 }
+
 // services home08
 .sevives-items {
   margin-bottom: 60px;

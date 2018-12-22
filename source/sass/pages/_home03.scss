@@ -3,6 +3,10 @@
   justify-content: space-between;
   width: 100%;
 
+  .main-title {
+    margin-bottom: 35px;
+  }
+
   .testimonial-thumb-container {
     position: relative;
     width: 40%;
@@ -27,7 +31,7 @@
       position: absolute;
       right: 15px;
       bottom: 0;
-      width: 140px;
+      width: 120px;
       display: flex;
       flex-wrap: nowrap;
       font-size: 30px;
@@ -52,6 +56,14 @@
   .testimonial-content-container {
     width: 60%;
     padding-left: 80px;
+
+    .main-title {
+      padding-left: 30px;
+    }
+
+    .testimonial3__desc {
+      padding-left: 30px;
+    }
   }
 
   @include md {
@@ -67,5 +79,11 @@
       width: 100%;
       padding: 0 15px;
     }
+  }
+}
+
+.home03-testimonials {
+  .testimonial .slick-slide {
+    padding-left: 0;
   }
 }

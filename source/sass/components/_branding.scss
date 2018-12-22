@@ -25,18 +25,31 @@
 }
 
 .brand {
-  .brand-slider-home03__inner {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    @include min-lg {
-      padding: 100px 0 120px 0;
-    }
-    @include lg {
-      padding: 60px 0 0;
+  &.brand-slider-home03 {
+    padding: 0;
+    
+    .brand-inner {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      @include min-lg {
+        padding: 100px 0 120px 0;
+      }
+      @include lg {
+        padding: 60px 0 0;
+      }
     }
   }
 }
-.brand-slider-home03 {
-  @include md {
-    padding-top: 0;
+
+.brand-inner {
+  display: flex;
+  justify-content: space-between;
+
+  @include lg {
+    flex-wrap: wrap;
+
+    .brand__item {
+      flex: 0 0 100%;
+      margin-bottom: 30px;
+    }
   }
 }

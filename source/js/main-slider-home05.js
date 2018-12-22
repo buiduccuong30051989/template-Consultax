@@ -14,19 +14,14 @@ $(document).ready(function() {
           jsFileLocation: "revolution/js/",
           sliderLayout: "fullscreen",
           autoHeight: "off",
-          // fullScreenAutoWidth: "off",
-          // fullScreenAlignForce: "off",
           fullScreenOffsetContainer: ".home05-cta-main",
-          // fullScreenOffset: "",
           delay: 9000,
           spinner:"off",
           navigation: {
             arrows: {
-              // style: "custom",
-              enable: true,
+              enable: false,
               hide_onmobile: false,
               hide_onleave: true,
-              // tmp: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
               left: {
                 h_align: "left",
                 v_align: "center",

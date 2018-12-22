@@ -9,6 +9,20 @@
     margin-bottom: -190px;
     position: relative;
     margin-top: 150px;
+
+    .post-content .post__meta {
+      margin-bottom: 0;
+
+      span {
+        font-family: $hfont;
+        font-weight: 700;
+      }
+    }
+
+    .post__title.large {
+      margin-top: 0;
+      margin-bottom: 42px;
+    }
   }
 }
 
@@ -87,7 +101,7 @@
     color: $white;
     text-transform: uppercase;
     font-family: $hfont;
-    font-weight: 900;
+    font-weight: 700;
   }
 }
 
@@ -116,6 +130,13 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .post-type-04 .post-content {
+    padding-left: 60px;
+    padding-top: 58px;
+    padding-bottom: 20px;
+  }
+
 }
 
 .home08-wwa__inner {

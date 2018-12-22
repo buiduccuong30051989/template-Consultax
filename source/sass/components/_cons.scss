@@ -35,8 +35,39 @@
 
 .home04-consultation {
   background-color: $dmcolor;
+  padding: 25px 0;
+
+  p strong {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: $hfont;
+  }
+
+  p span {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: $hfont;
+  }
+
+  .btn-orange {
+    width: 145px;
+    height: 46px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+  }
+
+  @include md {
+    padding: 15px;
+
+    .btn-orange {
+      float: none;
+    }
+  }
 }
 
 .home05-consultation {
   background-color: $mcolor;
+  @extend .home04-consultation;
 }

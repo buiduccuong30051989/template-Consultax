@@ -214,6 +214,10 @@
         margin-bottom: 0;
       }
     }
+
+    .btn-orange {
+      width: 144px;
+    }
   }
   &__second-row {
     @include md {
@@ -403,7 +407,7 @@
   &__divider {
     width: 100%;
     height: 2px;
-    background-color: rgba($white, .2);
+    background-color: rgba($white, .7);
     margin: 56px 0;
   }
 

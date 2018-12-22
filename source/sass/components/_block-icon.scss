@@ -16,7 +16,7 @@
         color: $black;
         font-size: 20px;
         font-family: "Montserrat", sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         transition: all 0.2s ease-in-out;
     }
 
@@ -117,6 +117,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        .main-title {
+          margin-bottom: 38px;
+        }
 
         .sevives-item {
             position: relative;
@@ -399,6 +403,10 @@
   }
 	/*home6 feature*/
   .home06_feature {
+    .title03 {
+      margin-bottom: 50px;
+    }
+
     @include lg {
       padding-bottom: 0;
       .content-block {
@@ -419,6 +427,11 @@
     .content-block {
         justify-content: space-between;
         background-color: $pink-base;
+
+        .icon-block  {
+          font-size: 40px;
+          line-height: 1;
+        }
       &:hover {
           box-shadow: 0px 0px 40px 0px rgba($black,.1);
       }
@@ -458,17 +471,28 @@
   .home08-services {
     &__bottom {
       background-color: $dmcolor;
-      padding-bottom: 220px;
+      padding-bottom: 120px;
       position: relative;
 
       &:before {
           content: '';
           background-color: $white;
-          height: 60px;
+          height: 100px;
           width: 100%;
           top: 0;
           left: 0;
           position: absolute;
+      }
+
+      .overlay-services-08 {
+        opacity: 0;
+        transition: $transition-base;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
       }
     }
     &__top {
@@ -487,10 +511,6 @@
         background-color: $white;
 
       &:hover {
-        .sevives-bottom {
-          background: url('../images/h8_services_bg.jpg');
-          background-size: cover;
-        }
 
         .sevives-top {
           background-color: $oranger-1;
@@ -499,32 +519,39 @@
           }
         }
 
-        .image-item {
-          visibility: hidden;
-          opacity: 0;
+        .sevives-bottom {
+          .overlay-services-08 {
+            opacity: 1;
+          }
         }
       }
     }
 
 
     .sevives-top {
-        background-color: $blue-light;
+      background-color: $blue-light;
       padding: 10px 30px;
       text-align: center;
-      height: 60px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: $transition-base;
+
+      h4 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: $hfont;
+        color: $dmcolor;
+        transition: $transition-base;
+      }
     }
 
     .sevives-bottom {
-        padding-bottom: 70%;
         text-align: center;
         position: relative;
-    }
-
-    .sevives-top h4 {
-        font-size: 16px;
-        font-weight: bold;
-        color: $dmcolor;
-      font-family: "Montserrat", sans-serif;
+        padding: 110px 0;
     }
 
     .image-icon {
