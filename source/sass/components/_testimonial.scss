@@ -43,10 +43,12 @@ li {
 	}
 }
 .home01-testimonials {
+	padding-bottom: 14px;
   @include md {
-    padding-bottom: 0;
   }
 	.main-title {
+		margin-bottom: 50px;
+
 		@include lg {
 			padding-left: 15px;
 			padding-right: 15px;
@@ -92,6 +94,15 @@ li {
 }
 
 .home02-testimonial {
+
+	.main-title {
+		margin-bottom: 48px;
+	}
+
+	.testimonial2__desc {
+		margin-top: 66px;
+	}
+
   @include md {
     padding-bottom: 0;
   }
@@ -308,7 +319,11 @@ li {
 		background-image: url(../images/h2_testimonial_bg.png);
 		background-repeat: no-repeat;
 		font-style: italic;
-    margin-bottom: 20px;
+		margin-bottom: 30px;
+		font-size: 20px;
+		font-family: $hfont;
+		line-height: 24px;
+
     @include min-md {
       margin-left: 20px;
     }

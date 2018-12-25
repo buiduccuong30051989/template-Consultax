@@ -222,7 +222,7 @@ append content
             data-x="['center']", 
             data-hoffset="['0']", 
             data-y='center', 
-            data-voffset="['0','0','0','0']", 
+            data-voffset="['-18','0','0','0']", 
             data-width="['770','580','480','320']", 
             data-transform_idle='o:1;', 
             data-transform_in='y:100px;opacity:0;s:1000;e:Power3.easeOut;', 
@@ -238,7 +238,7 @@ append content
             data-x="['center']", 
             data-hoffset="['0']", 
             data-y='center', 
-            data-voffset="['260','260','260','260']",
+            data-voffset="['210','210','210','210']",
             data-fontsize="['14','14','14','14']", 
             data-transform_idle='o:1;', 
             data-transform_in='y:200px;opacity:0;s:1200;e:Power3.easeOut;', 
@@ -249,15 +249,16 @@ append content
             data-x="['center']", 
             data-hoffset="['0']", 
             data-y='center', 
-            data-voffset="['180','180','180','180']", 
+            data-voffset="['145','145','145','145']", 
             data-transform_idle='o:1;', 
             data-transform_in='y:100px;opacity:0;s:1200;e:Power3.easeOut;', 
             data-transform_out='s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;', 
             data-start='1900'
             data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-2971-layer-18","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-2971-layer-18","delay":""},{"event":"click","action":"startlayer","layer":"slide-2971-layer-15","delay":""},{"event":"click","action":"startlayer","layer":"slide-2971-layer-19","delay":""},{"event":"click","action":"startlayer","layer":"slide-2971-layer-20","delay":"1000"},{"event":"click","action":"playvideo","layer":"slide-2971-layer-15","delay":"1000"}]')
             .btn-play-video
-              i.icon.ion-ios-play
-          .tp-caption.tp-resizeme.tp-videolayer(
+              img(src="images/btn-play-video.png")
+        .tp-static-layers
+          .tp-caption.tp-resizeme.tp-videolayer.tp-static-layer(
             id="slide-2971-layer-15" 
             data-x="['center','center','center','center']" 
             data-hoffset="['0','0','0','0']" 
@@ -280,12 +281,10 @@ append content
             data-lasttriggerstate="reset"           
             data-autoplay="off" 
             data-volume="100")
-          .tp-caption.rev-btn(
+          .tp-caption.rev-btn.tp-static-layer(
             id="slide-2971-layer-20" 
-            data-x="['center']", 
-            data-hoffset="['0']", 
-            data-y='center', 
-            data-voffset="['120','120','120','120']",
+            data-x="['center','center','center','center']" data-hoffset="['510','389','270','199']" 
+            data-y="['middle','middle','middle','middle']" data-voffset="['-298','-229','-163','-118']" 
             data-width="50"
             data-height="none"
             data-whitespace="nowrap"
@@ -335,7 +334,7 @@ append content
     .container
       .row
         .home03-services__inner
-          .main-title.text-center
+          .main-title.text-center.sm
             p OUR SERVICES
             h3 What we bring to you
       .home3-sevives.block-icon-home
@@ -467,7 +466,7 @@ append content
   //- blog
   .home03-blog.ssp.bg-blue-light
     .container
-      .main-title.text-center
+      .main-title.text-center.sm
         p OUR BLOG
         h3 Our latest news
       .row
@@ -583,7 +582,7 @@ append content
     .container
       .row
         .home03-counter__inner
-          .main-title
+          .main-title.sm
             p ACHIEVEMENTS & STATISTICS
             h3 Our 25 years of operation
           .main-content

@@ -28,7 +28,7 @@
     padding: 60px 30px;
 
     @include min-lg {
-      padding: 100px 55px;
+      padding: 95px 60px 72px;
       flex: 0 0 50%;
       display: flex;
       flex-direction: column;
@@ -61,6 +61,10 @@
       font-size: 12px;
       margin: 0;
     }
+  }
+
+  .main-title {
+    margin-bottom: 12px;
   }
 }
 
@@ -297,8 +301,8 @@
 
 .home07-services {
   @include min-md {
-    padding-top: 175px;
-    padding-bottom: 175px;
+    padding-top: 165px;
+    padding-bottom: 170px;
   }
   @include md {
     padding-top: 60px;
@@ -329,7 +333,7 @@
     @include min-md {
       position: absolute;
       right: 0;
-      top: -276px;
+      top: -266px;
       width: 370px;
     }
     @include md {

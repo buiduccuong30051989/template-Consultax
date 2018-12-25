@@ -53,3 +53,15 @@
 @import 'pages/home08';
 @import 'components/cons';	
 @import 'components/project';
+
+#shadowMeasureIt {
+  z-index: 9999999;
+}
+
+#divCoordMeasureIt {
+  position: fixed!important;
+}
+
+#divRectangleMeasureIt {
+  position: fixed!important;
+}

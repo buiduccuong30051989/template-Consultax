@@ -8,8 +8,10 @@
     }
 
     .icon-block {
-        font-size: 30px;
+        font-size: 40px;
         color: $scolor;
+        display: block;
+        padding-bottom: 6px;
     }
 
     .title {
@@ -48,6 +50,45 @@
       margin-bottom: 20px;
       float: left;
       width: calc(100% + 60px);
+    }
+
+    .content-block {
+      &.lg {
+        .icon-block {
+          font-size: 40px;
+          display: block;
+          padding-bottom: 6px;
+        }
+
+        .title {
+          margin-bottom: 11px;
+        }
+
+        .desc {
+          line-height: 22px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .block-icon-home .sevives-item.xl {
+    .icon-block {
+      font-size: 48px;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+
+    .title {
+      margin-bottom: 15px;
+    }
+
+    .hr_border {
+      margin-bottom: 25px;
+    }
+
+    .desc {
+      margin-bottom: 0;
     }
   }
 
@@ -214,6 +255,14 @@
     .content-block {
         background-size: 100% 100%;
         position: relative;
+
+        .icon-block {
+          font-size: 40px;
+        }
+
+        .title {
+          margin-bottom: 26px;
+        }
     }
 
     .content-block--item1 {
@@ -324,6 +373,10 @@
    .desc {
         min-height: auto;
     }
+
+    .title {
+      margin-bottom: 15px;
+    }
   }
 
   /*home5 sevices*/
@@ -427,9 +480,10 @@
     .content-block {
         justify-content: space-between;
         background-color: $pink-base;
+        padding: 28px 30px 0 30px;
 
         .icon-block  {
-          font-size: 40px;
+          font-size: 45px;
           line-height: 1;
         }
       &:hover {
@@ -443,6 +497,10 @@
 
     .feature-right {
         width: calc(100% - 50px);
+    }
+
+    &.block-icon-home {
+      margin-bottom: 90px;
     }
   }
 

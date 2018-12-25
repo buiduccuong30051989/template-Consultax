@@ -3,6 +3,8 @@
 // --------------------------------------------------
 .home01-blog {
   .main-title {
+    margin-bottom: 50px;
+
     @include lg {
       padding-left: 15px;
       padding-right: 15px;
@@ -11,6 +13,10 @@
 }
 .home02-blog {
   padding-top: 0;
+
+  .main-title {
+    margin-bottom: 48px;
+  }
 }
 .home05-blog {
   @include lg {

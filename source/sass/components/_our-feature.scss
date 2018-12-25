@@ -4,6 +4,7 @@
 .home02-our-feature {
   .main-title {
     padding: 0;
+    margin-bottom: 47px;
   }
 }
 
@@ -61,13 +62,12 @@
     flex-direction: column;
     justify-content: center;
     @include min-md {
-      padding: 84px 100px;
+      padding: 84px 104px 102px;
     }
     @include md {
       padding: 60px 15px;
     }
   }
-  
 }
 @include md {
   .home02-our-feature {

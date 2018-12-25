@@ -90,7 +90,11 @@
       padding-left: 15px;
       padding-right: 15px;
     }
-  }
+	}
+	
+	.main-title {
+		margin-bottom: 48px;
+	}
 }
 .home03-counter {
 	@include md { 

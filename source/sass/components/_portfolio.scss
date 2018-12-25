@@ -2,7 +2,11 @@
 // Components :: Portfolio
 // --------------------------------------------------
 .home01-services {
-  
+  padding-bottom: 90px;
+
+  .main-title {
+    margin-bottom: 48px;
+  }
 }
 
 .slick-project-home01 {
@@ -39,7 +43,7 @@
 
 .home01-projects {
   .main-title {
-    margin-bottom: 26px;
+    margin-bottom: 20px;
   }
 
   &__content {
@@ -123,6 +127,7 @@
   background-position: center center;
   position: relative;
   color: white;
+  padding-bottom: 110px;
 }
 
 .home07-project {

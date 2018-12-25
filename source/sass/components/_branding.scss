@@ -38,6 +38,14 @@
       }
     }
   }
+
+  &.brand-slider-home06 {
+    padding-bottom: 0;
+    .brand-slider {
+      padding-bottom: 100px;
+      padding-top: 54px;
+    }
+  }
 }
 
 .brand-inner {
@@ -52,4 +60,8 @@
       margin-bottom: 30px;
     }
   }
+}
+
+.home01-brand {
+  padding-bottom: 120px;
 }

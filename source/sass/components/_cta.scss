@@ -62,7 +62,7 @@
   background: url('../images/home02-cta-01.jpg');
   background-size: cover;
   background-position: center center;
-  padding-top: 130px;
+  padding-top: 120px;
   padding-bottom: 110px;
 
   .form-row {
@@ -74,6 +74,10 @@
     &.last {
       margin-bottom: 0;
     }
+  }
+
+  .btn-orange {
+    min-width: 144px;
   }
 }
 
@@ -105,8 +109,8 @@
     padding-bottom: 60px;
   }
   @include min-md {
-    padding-top: 130px;
-    padding-bottom: 110px;
+    padding-top: 90px;
+    padding-bottom: 104px;
   }
   .inner {
     position: relative;
@@ -145,8 +149,8 @@
   color: white;
   // height: 250px; wait until title done
   @include min-md {
-    padding-top: 130px;
-    padding-bottom: 110px;
+    padding-top: 90px;
+    padding-bottom: 102px;
   }
   @include md {
     padding-top: 60px;

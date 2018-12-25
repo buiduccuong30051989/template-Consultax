@@ -57,6 +57,10 @@ a {
   }
   @include min-sm {
     margin-bottom: 56px;
+
+    &.sm {
+      margin-bottom: 50px;
+    }
   }
   @include sm {
     margin-bottom: 30px;
@@ -125,6 +129,10 @@ a {
   a {
     color: rgba($white, 0.7);
   }
+
+  &.sm {
+    margin-bottom: 50px;
+  }
 }
 
 .main-title--white-sm {
@@ -172,6 +180,7 @@ a {
   font-family: $hfont;
   font-size: 12px;
   font-weight: 700;
+  letter-spacing: 4px;
 }
 
 .title02,
